@@ -11,6 +11,8 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+
+// This is my blog server 
 // Route to render the main page
 app.get("/", async (req, res) => {
   try {
